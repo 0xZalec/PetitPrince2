@@ -5,7 +5,7 @@ import java.util.Random;
 public class JeuDe extends JeuSimple {
 
 	public JeuDe() {
-		// TODO Auto-generated constructor stub
+		super.nom = "Dés";
 	}
 
 	@Override

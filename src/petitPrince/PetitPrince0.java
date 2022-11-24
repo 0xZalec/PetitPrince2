@@ -14,26 +14,27 @@ public class PetitPrince0 implements Sujet, Joueur {
 
 	// Constructeur
 	public PetitPrince0() {
+		this.nom = "Oui";
+		this.argent = 0;
 		ConsoleJavaBoy console = new ConsoleJavaBoy(this);
+		this.cpt = 0;
 	}
 
 	// Autres méthodes
 	@Override
 	public String getNom() {
-		// TODO Auto-generated method stub
 		return this.nom;
 	}
 
 	@Override
 	public int getArgent() {
-		// TODO Auto-generated method stub
 		return this.argent;
 	}
 
 	@Override
 	public void run() {
-		console.parler(this.getNom());
-		console.seDirigerVers(0);
+		this.console.parler("Tour : " + this.cpt);
+		this.console.seDirigerVers(0);
 	}
 
 	@Override

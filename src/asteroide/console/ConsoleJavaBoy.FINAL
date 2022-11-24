@@ -3,7 +3,6 @@ package asteroide.console;
 import asteroide.Sujet;
 import petitPrince.jeu.JeuSimple;
 
-
 /**
  * 
  * @author Sebastien Leriche, leriche@irit.fr

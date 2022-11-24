@@ -1,7 +1,8 @@
-package petitPrince.jeu;
+package petitPrince;
 
 import asteroide.Sujet;
 import asteroide.console.ConsoleJavaBoy;
+import petitPrince.jeu.Joueur;
 
 public class PetitPrince0 implements Sujet, Joueur {
 
@@ -32,6 +33,7 @@ public class PetitPrince0 implements Sujet, Joueur {
 	@Override
 	public void run() {
 		console.parler(this.getNom());
+		console.seDirigerVers(0);
 	}
 
 	@Override

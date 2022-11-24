@@ -1,5 +1,7 @@
 package jeu;
 
+import personnage.Joueur;
+
 public class TestArbitre {
 
 	public TestArbitre() {

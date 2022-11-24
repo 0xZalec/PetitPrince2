@@ -1,4 +1,4 @@
-package jeu;
+package personnage;
 
 public interface Joueur {
 	

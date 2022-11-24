@@ -1,4 +1,4 @@
-package personnage;
+package petitPrince.jeu;
 
 import asteroide.Sujet;
 import asteroide.console.ConsoleJavaBoy;
@@ -13,6 +13,7 @@ public class PetitPrince0 implements Sujet, Joueur {
 
 	// Constructeur
 	public PetitPrince0() {
+		ConsoleJavaBoy console = new ConsoleJavaBoy(this);
 	}
 
 	// Autres méthodes
@@ -30,7 +31,7 @@ public class PetitPrince0 implements Sujet, Joueur {
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		console.parler(this.getNom());
 	}
 
 	@Override

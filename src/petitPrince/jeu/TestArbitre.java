@@ -1,6 +1,4 @@
-package jeu;
-
-import personnage.Joueur;
+package petitPrince.jeu;
 
 public class TestArbitre {
 

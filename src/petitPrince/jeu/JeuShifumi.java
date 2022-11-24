@@ -1,4 +1,4 @@
-package jeu;
+package petitPrince.jeu;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package personnage;
+package petitPrince.jeu;
 
 public interface Joueur {
 	

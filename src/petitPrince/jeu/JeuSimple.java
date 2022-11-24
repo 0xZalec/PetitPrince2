@@ -1,4 +1,4 @@
-package jeu;
+package petitPrince.jeu;
 
 public abstract class JeuSimple {
 
